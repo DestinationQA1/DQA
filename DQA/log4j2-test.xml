@@ -35,14 +35,14 @@
  
     <Loggers>
      <!-- Only error or above msgs will be displayed in html, text, console from this package-->
-        <Logger name="com.destinationqa" level="ERROR">
+        <Logger name="testng" level="ERROR">
             <AppenderRef ref="htmlLog" />
             <AppenderRef ref="textLog" />
         </Logger>
                  
         <Root level="all">
             <AppenderRef ref="Console"/>
-        </Root>
+         </Root>
  
     </Loggers>
  
